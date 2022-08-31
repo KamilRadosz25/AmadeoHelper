@@ -1,0 +1,16 @@
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\bin\Debug\net5.0\AmadeoApp.exe
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\bin\Debug\net5.0\AmadeoApp.deps.json
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\bin\Debug\net5.0\AmadeoApp.runtimeconfig.json
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\bin\Debug\net5.0\AmadeoApp.runtimeconfig.dev.json
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\bin\Debug\net5.0\AmadeoApp.dll
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\bin\Debug\net5.0\AmadeoApp.pdb
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\AmadeoApp.csproj.AssemblyReference.cache
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\AmadeoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\AmadeoApp.AssemblyInfoInputs.cache
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\AmadeoApp.AssemblyInfo.cs
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\AmadeoApp.csproj.CoreCompileInputs.cache
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\AmadeoApp.dll
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\refint\AmadeoApp.dll
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\AmadeoApp.pdb
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\AmadeoApp.genruntimeconfig.cache
+C:\Amadeo_helpdesk\AmadeoApp\AmadeoApp\obj\Debug\net5.0\ref\AmadeoApp.dll

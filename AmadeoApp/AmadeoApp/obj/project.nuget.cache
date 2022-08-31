@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tfPLfcvDZyp5xHabAU2RG4i5rFkeRd9STFw2urzkIykYl8IbgLtK55vTvg9YrvBVRkWSpTV3TDl1wN2AD3uRyw==",
+  "success": true,
+  "projectFilePath": "C:\\Amadeo_helpdesk\\AmadeoApp\\AmadeoApp\\AmadeoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Janusz Adamczyk\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
