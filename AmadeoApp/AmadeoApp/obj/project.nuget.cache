@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tfPLfcvDZyp5xHabAU2RG4i5rFkeRd9STFw2urzkIykYl8IbgLtK55vTvg9YrvBVRkWSpTV3TDl1wN2AD3uRyw==",
+  "dgSpecHash": "U5yezaOWsywslCmTPCbmDPVwoXs1xymA3RyA7rTBs4RNVmEXLUP0VxGyOeDIjKkpICfKyLziEH23yQhrDKIaBw==",
   "success": true,
-  "projectFilePath": "C:\\Amadeo_helpdesk\\AmadeoApp\\AmadeoApp\\AmadeoApp.csproj",
+  "projectFilePath": "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoApp\\AmadeoApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Janusz Adamczyk\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\DESKTOP-23HJK34H\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\DESKTOP-23HJK34H\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
+    "C:\\Users\\DESKTOP-23HJK34H\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
