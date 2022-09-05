@@ -6,11 +6,33 @@ namespace AmadeoApp
 {
     internal class Program
     {
-        //SPEXORDS PO PROSTU ZROB SE PRINTA ARGS \/ JAK PODASZ COS PROGRAMIKOWI JAKO PARAMETRY
         static void Main(string[] args)
         {
             Console.WriteLine("Amadeo Helpdesk");
             Console.WriteLine("Witaj w programie helpdeskowym PIM. ");
+            Console.WriteLine("Jaką opcje chcesz wykonać");
+            Console.WriteLine("Komendy wpisuj nazwa klienta . funkcja");
+            Console.WriteLine("Salami fiskalizowanie paragonów - Salami --FP (Umieść ID po enterze w pliku: IdReceiptList.txt)");
+            Console.WriteLine("Ajka zmiana ceny detalicznej faktury - Ajka --ChangePrice");
+            Console.WriteLine("Market punkt centrala sciąganie cen objetych ceną specjalną - MP_CENTRALA --UncheckSpecialPrice");
+            Console.WriteLine("Resetowanie blokady operatorów na analizy centralne - MP_CENTRALA --ResetLock");
+            Console.WriteLine("Odświeżanie buforu cotygodniowe na wszystkie sklepy MP --UncheckBuffor");
+            string input = Console.ReadLine();
+            switch (input)
+            {
+                case "Salami --FP":
+                        break;
+                case "Ajka --ChangePrice":
+                    break;
+                case "MP_CENTRALA --UncheckSpecialPrice":
+                    break;
+                case "MP_CENTRALA --ResetLock":
+                    break;
+                case "MP --UncheckBuffor":
+                    break;
+                    default: Console.WriteLine("Nie wybrałeś żadnej poprawnej opcji");
+                    break;
+            }
 
             var databases = DatabaseManager.GetDatabase();
 
@@ -19,18 +41,7 @@ namespace AmadeoApp
                 Console.WriteLine(database.Key + " " + database.Value);
             }
             DatabaseManager dbManager = new DatabaseManager();
-            dbManager.ExecuteQueryOnDB();
 
-
-
-
-            //switch wykorzystujący komendy.
-            //SPEXORDS: Mozesz wykorzystac bardzo eleganckie rozwiazanie ktore sluzy do konfiguracji ktore jest natywnie od jakeis wersji .net
-            // var configuration = ConfigurationBuilder.AddCommandLine(args).Build() ========> i potem mozesz sie odwolywac do argumentow configuration["metoda"] 
-
-            //AmadeoApp.exe --metoda zabijTerminal --argument 5
-            //configuration["metoda"] zwroci stringa "zabijTerminal"
-            //configuration["argument"] zwroci stringa "5"
 
 
 

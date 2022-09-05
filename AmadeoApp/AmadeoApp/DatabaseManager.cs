@@ -9,11 +9,8 @@ using Npgsql;
 
 namespace AmadeoApp
 {
-    internal class DatabaseManager
+    public class DatabaseManager
     {
-        //Dictionary przechowuje connection stringi + podpisani klienci.
-        //Dictionary<string, string> _connections; => _connections["PimLevatianZodiak1"]
-        //wczytaj z pliku ten dictionary albo postac json i wtedy desrializacja albo czytaj linia po linii i wrzucaj do tego dictionary
         public static Dictionary<string, string> GetDatabase()
         {
             string fileName = @"C:\amadeo_helpdesk\AmadeoHelper\AmadeoApp\IdFiles\ConnectionStringList.json";
@@ -21,21 +18,34 @@ namespace AmadeoApp
             return databases;
 
         }
+        public Dictionary<string, string> Databases { get; set; } = GetDatabase();
 
-       Dictionary<string, string> databases = GetDatabase();
-
-        public void ExecuteQueryOnDB()
+        public void ExecuteForLocalMPShop(string query)
         {
-            foreach (var database in databases)
+            foreach (var database in Databases)
             {
-                using var con = new NpgsqlConnection(database.Value);
-                con.Open();
-                var sql = QueryBuilder.UncheckBuffor();
-                using var cmd  = new NpgsqlCommand(sql, con);
-                var result =cmd.ExecuteNonQuery();
-                Console.WriteLine($"Zaktualizowano: {result} dla {database.Key}");
+                if (database.Key != "MP_CENTRALA")
+                {
+                    using var con = new NpgsqlConnection(database.Value);
+                    con.Open();
+                    var sql = query;
+                    using var cmd = new NpgsqlCommand(sql, con);
+                    var result = cmd.ExecuteNonQuery();
+                    Console.WriteLine($"{result}: {database.Key}");
+                }
             }
         }
+
+        public string UpdateForOneDatabase(string query, string Db)
+        {                       
+            
+                    using var con = new NpgsqlConnection(Databases[Db]);
+                    con.Open(); 
+                    using var cmd = new NpgsqlCommand(query, con);
+                    var result = cmd.ExecuteNonQuery();
+                   return $"Zaktualizowano: {result} dla {Db}";
+        }
+        
 
 
 

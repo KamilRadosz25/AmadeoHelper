@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoAPP__Gui_Desktop\\AmadeoAPP__Gui_Desktop.csproj": {}
+  },
+  "projects": {
+    "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoApp\\AmadeoApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoApp\\AmadeoApp.csproj",
+        "projectName": "AmadeoApp",
+        "projectPath": "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoApp\\AmadeoApp.csproj",
+        "packagesPath": "C:\\Users\\DESKTOP-23HJK34H\\.nuget\\packages\\",
+        "outputPath": "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DESKTOP-23HJK34H\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoAPP__Gui_Desktop\\AmadeoAPP__Gui_Desktop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoAPP__Gui_Desktop\\AmadeoAPP__Gui_Desktop.csproj",
+        "projectName": "AmadeoAPP__Gui_Desktop",
+        "projectPath": "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoAPP__Gui_Desktop\\AmadeoAPP__Gui_Desktop.csproj",
+        "packagesPath": "C:\\Users\\DESKTOP-23HJK34H\\.nuget\\packages\\",
+        "outputPath": "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoAPP__Gui_Desktop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DESKTOP-23HJK34H\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoApp\\AmadeoApp.csproj": {
+                "projectPath": "C:\\amadeo_helpdesk\\AmadeoHelper\\AmadeoApp\\AmadeoApp\\AmadeoApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
