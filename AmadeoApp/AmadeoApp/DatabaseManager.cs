@@ -20,8 +20,9 @@ namespace AmadeoApp
         }
         public Dictionary<string, string> Databases { get; set; } = GetDatabase();
 
-        public void ExecuteForLocalMPShop(string query)
+        public List<string> ExecuteForLocalMPShop(string query)
         {
+            List<string> listResult = new List<string>();
             foreach (var database in Databases)
             {
                 if (database.Key != "MP_CENTRALA")
@@ -31,14 +32,13 @@ namespace AmadeoApp
                     var sql = query;
                     using var cmd = new NpgsqlCommand(sql, con);
                     var result = cmd.ExecuteNonQuery();
-                    Console.WriteLine($"{result}: {database.Key}");
+                    listResult.Add(result.ToString());
                 }
             }
+            return listResult;
         }
-
         public string UpdateForOneDatabase(string query, string Db)
         {                       
-            
                     using var con = new NpgsqlConnection(Databases[Db]);
                     con.Open(); 
                     using var cmd = new NpgsqlCommand(query, con);
